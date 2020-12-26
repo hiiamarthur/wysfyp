@@ -1,0 +1,31 @@
+{
+  "name": "back_end",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon --inspect",
+    "knex migrate:latest": "knex --knexfile ./src/knexfile.js migrate:latest"
+  },
+  "description": "csci3100_back_end",
+  "main": "app.js",
+  "repository": "git@gitlab.com-personal:yuekalong-personal/csci3100-back-end.git",
+  "author": "Lau Ping Tung <115511034@link.cuhk.edu.hk>",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^8.0.0",
+    "firebase-admin": "^9.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.11",
+    "moment-timezone": "^0.5.28",
+    "mysql": "^2.18.0",
+    "nodemon": "^2.0.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^2.3.0"
+  }
+}

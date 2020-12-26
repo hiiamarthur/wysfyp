@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var SET_LOGIN_STATE = \"SET_LOGIN_STATE\";","map":{"version":3,"sources":["/Users/yhlau/Arthur/project/wysfyp/frontend/plugin/redux/actionTypes.js"],"names":["SET_LOGIN_STATE"],"mappings":"AAAA,OAAO,IAAMA,eAAe,GAAG,iBAAxB","sourcesContent":["export const SET_LOGIN_STATE = \"SET_LOGIN_STATE\";"]},"metadata":{},"sourceType":"module"}
